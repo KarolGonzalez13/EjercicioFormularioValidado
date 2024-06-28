@@ -1,0 +1,87 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 20px;
+    /*display: flex;
+    flex-direction:column;*/
+    width: 200px;
+    box-shadow: 0 0 20px rgb(245, 219, 194);
+    padding: 20px;
+    border-radius: 20px;
+}
+label{
+    margin-top: 10px;
+    
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom:15px;
+    padding: 5px;
+    background-color:rgb(245, 219, 194);
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(232, 175, 144);
+    width: 80%;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(233, 162, 112);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+
+button:hover{
+    background-color:rgb(206, 136, 85);
+    color:aliceblue;
+}
+
+.errorNombre, .errorCelular, .errorCorreo{
+    font-size: small;
+    color: red;
+}
+
+.errorInput{
+    background-color: rgb(248, 218, 243);
+    border: 2px solid red;
+}
+
+.correctoInput{
+    background-color: rgb(184, 232, 177);
+    border: 2px solid rgb(30, 255, 0);
+}
+
+.xmarkErrorNombre, .xmarkErrorCelular, .xmarkErrorCorreo{
+    color: red;
+}
+
+.checkMarkNombre, .checkMarkCelular, .checkMarkCorreo{
+    color:green;
+}
+
+.ocultar{
+    display: none;
+    visibility: hidden;
+}
